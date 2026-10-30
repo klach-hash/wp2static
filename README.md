@@ -22,6 +22,10 @@ Built with Go 1.22+ and the standard library only — zero third-party dependenc
 |------------------|-------|
 | ![Migration wizard](docs/wizard.png) | ![Panel](docs/panel.png) |
 
+| Post editor |
+|-------------|
+| ![Post editor](docs/edit.png) |
+
 ## Quick start (no commands)
 
 Run the `wp2static` binary (Windows: `wp2static.exe`) — a browser opens with the
