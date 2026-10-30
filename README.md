@@ -72,10 +72,17 @@ the `EN · PL` link in the top-right corner; the choice is stored in the browser
 
 ## Limitations
 
-Forms, search and comments are not migrated. Post content comes from the REST
-API (plugin shortcodes may need manual fixes). WordPress must live in the domain
-root. With the REST API disabled, a WXR file import would be required (not yet
+Not every feature carries over, and the result may look slightly different from
+the original — how much depends on the WordPress theme and plugins in use (page
+builders, custom post types, dynamic widgets, and so on). Forms, search and
+comments are not migrated. Post content comes from the REST API, so plugin
+shortcodes may need manual fixes. WordPress must live in the domain root. With
+the REST API disabled, a WXR file import would be required (not yet
 implemented).
+
+Small imperfections in the generated HTML/CSS are usually easy to polish — you
+can fix them by hand or with an LLM assistant such as Claude, DeepSeek or
+ChatGPT.
 
 ## Docker
 
