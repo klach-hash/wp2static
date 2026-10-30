@@ -1,0 +1,21 @@
+# Compiled binary
+/wp2static
+/wp2static.exe
+*.exe
+
+# Project data folders (generated at runtime; config.json holds the FTP
+# password in plain text and must never be committed)
+/projekt/
+/site-export/
+/dist/
+/config.json
+/publish-manifest.json
+/data/
+/site/
+/template/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

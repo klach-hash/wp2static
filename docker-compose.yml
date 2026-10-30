@@ -1,0 +1,9 @@
+services:
+  wp2static:
+    build: .
+    ports: # local only – the panel has no authentication
+      - "127.0.0.1:8090:8087" # 8080 is often reserved by Windows (netsh excludedportrange)
+      - "127.0.0.1:8091:8088" # the preview listens on panel port+1 (8087+1=8088) and the panel link
+        # computes the external port as panel+1 – so the mapping must be consecutive too
+    volumes:
+      - ./projekt:/data # data, media and config.json live here
